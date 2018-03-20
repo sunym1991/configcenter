@@ -1,5 +1,5 @@
-####1、功能：将配置等信息写入zk中，通过一定的匹配规则可以从zk中读取配置信息
-####2、配置文件修改：
+1、功能：将配置等信息写入zk中，通过一定的匹配规则可以从zk中读取配置信息
+2、配置文件修改：
 ```
 logging:
   level: info
@@ -16,14 +16,14 @@ zookeeper:
   namespace: ##根据需要自己设置
 ```
 
-####3、configcenter：
+3、configcenter：
 * Spring框架：主要涉及写zk操作，并提供简单的web前端支持，可通过前端页面操作
 * 读配置信息见config_center_client：由于业务需要提供python版
 
-####4、页面访问：
+4、页面访问：
 http://localhost:9090/index.html#/service
 
-####5、接口说明：
+5、接口说明：
 
 ```
 
