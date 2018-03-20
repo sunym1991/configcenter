@@ -1,0 +1,16 @@
+logging:
+  level: info
+  level.com.xhs.qa: DEBUG
+  path: ../log
+
+server:
+  port: 9090
+
+zookeeper:
+  url:
+  baseSleepTimeMs: 1000
+  maxRetry: 3
+  namespace:
+
+
+
